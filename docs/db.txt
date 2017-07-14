@@ -1,0 +1,3 @@
+cd /Applications/Postgres.app/Contents/Versions/latest/bin
+./createdb -h localhost -p 5432 -U postgres metrics
+./dropdb metrics
